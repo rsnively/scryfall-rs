@@ -12,6 +12,7 @@ pub enum Layout {
     Split,
     Flip,
     Transform,
+    Adventure,
     Meld,
     Leveler,
     Saga,

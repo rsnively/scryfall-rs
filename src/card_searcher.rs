@@ -22,8 +22,8 @@
 //! [`SearchBuilder`]: struct.SearchBuilder.html
 //! [`Search`]: trait.Search.html
 use crate::card::{
-    border_color::BorderColour, color::Colours, frame::Frame, frame_effect::FrameEffect, game::Game,
-    rarity::Rarity, Card,
+    border_color::BorderColour, color::Colours, frame::Frame, frame_effect::FrameEffect,
+    game::Game, rarity::Rarity, Card,
 };
 use crate::format::Format;
 use crate::set::set_code::SetCode;
@@ -438,6 +438,8 @@ pub enum BooleanParam {
     IsFlip,
     /// Find transforming cards.
     IsTransform,
+    /// Find adenture cards.
+    IsAdenture,
     /// Find cards with meld.
     IsMeld,
     /// Find leveler cards.
@@ -520,6 +522,7 @@ impl Param for BooleanParam {
                 IsSplit => "split",
                 IsFlip => "flip",
                 IsTransform => "transform",
+                IsAdenture => "adenture",
                 IsMeld => "meld",
                 IsLeveler => "leveler",
                 IsSpell => "spell",
