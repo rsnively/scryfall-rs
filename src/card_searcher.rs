@@ -439,7 +439,7 @@ pub enum BooleanParam {
     /// Find transforming cards.
     IsTransform,
     /// Find adenture cards.
-    IsAdenture,
+    IsAdventure,
     /// Find cards with meld.
     IsMeld,
     /// Find leveler cards.
