@@ -522,7 +522,7 @@ impl Param for BooleanParam {
                 IsSplit => "split",
                 IsFlip => "flip",
                 IsTransform => "transform",
-                IsAdenture => "adenture",
+                IsAdventure => "adventure",
                 IsMeld => "meld",
                 IsLeveler => "leveler",
                 IsSpell => "spell",
