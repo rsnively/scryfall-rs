@@ -26,6 +26,7 @@ pub enum FrameEffect {
     Extendedart,
     Companion,
     Nyxborn,
+    Fullart,
 }
 
 impl std::fmt::Display for FrameEffect {
@@ -53,6 +54,7 @@ impl std::fmt::Display for FrameEffect {
                 Extendedart => "extendedart",
                 Companion => "companion",
                 Nyxborn => "nyxborn",
+                Fullart => "fullart",
             }
         )
     }
